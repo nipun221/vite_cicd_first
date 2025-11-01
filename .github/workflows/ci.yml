@@ -25,4 +25,10 @@ jobs:
         run: npm ci
 
       - name: "List files"
-        run: ls -la
+        run: ls 
+
+      - name: "Run tests"
+        run: npm test 
+
+      - name: "Build project"
+        run: npm run build
